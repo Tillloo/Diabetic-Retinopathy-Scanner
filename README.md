@@ -130,9 +130,9 @@ python3 data_preview.py
 ## Web application
 
 ### Home page
-<img width="1604" alt="index_page" src="results/Upload_image.png">
+<img width="1604" alt="index_page" src="Diabetic-Retinopathy-Scanner/results/Upload_image.png">
 This page allows the user to submit a picture for the model to predict the class of for diabetic retinopathy.
 
 ### Result page
-<img width="1604" alt="result_page" src="results/Prediction_Result.png">
+<img width="1604" alt="result_page" src="Diabetic-Retinopathy-Scanner/results/Prediction_Result.png">
 This page shows the probabilities predicted by the model that the user-submitted image is any particular class.
