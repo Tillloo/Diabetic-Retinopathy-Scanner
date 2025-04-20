@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediction Result</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/result_styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Prediction Result</h1>
+      <img src="{{ file_url }}" alt="Uploaded Image" />
+      <p><strong>Predicted Class:</strong> {{ predicted_class }}</p>
+      <table class="probabilities-table">
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Description</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0</td>
+            <td>No DR</td>
+            <td>{{ probabilities[0] }}</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Mild</td>
+            <td>{{ probabilities[1] }}</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Moderate</td>
+            <td>{{ probabilities[2] }}</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Severe</td>
+            <td>{{ probabilities[3] }}</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Proliferative DR</td>
+            <td>{{ probabilities[4] }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="/">Go Back</a>
+    </div>
+  </body>
+</html>
