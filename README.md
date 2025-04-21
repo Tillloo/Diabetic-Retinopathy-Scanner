@@ -4,10 +4,6 @@ The diabetic retinopathy detection used to requires an optometrist to examinate 
 With the estimated number of adults with DR is about to breach 100 million globally by 2045, a fast and cost-efficient way of DR detection is required. <br/>
 Our project aims to detecte DR with machine learning, an accurate model that helps to diagnose a large portion of samples.
 
-## Video/demo/GIF
-
-Video link: https://drive.google.com/file/d/1z-kei8gb_9Wv5IXZhWu7i5gpurOFSgq8/view
-
 ## Table of Contents
 1. [Demo](#demo)
 
